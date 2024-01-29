@@ -88,6 +88,8 @@ Interaction tracking data structure: <strong>/chatbot-for-meta-intents/backend/m
 
 Interaction tracking action: <strong>/chatbot-for-meta-intents/frontend/src/actions/inteactionTrackActions.js</strong>
 
+implementation for chatbot: <strong>/chatbot-for-meta-intents/frontend/src/bot</strong>
+
 
 
 ## 8. Running the chatbot
