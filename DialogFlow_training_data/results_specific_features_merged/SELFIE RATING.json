@@ -1,0 +1,23 @@
+{
+    "name": "SELFIE RATING",
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "SELFIE RATING",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have a smartphone with a good front facing camera? I like to take good selfies.",
+                    "userDefined": false
+                }
+            ]
+        }
+    ]
+}

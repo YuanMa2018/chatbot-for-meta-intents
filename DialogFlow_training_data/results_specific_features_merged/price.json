@@ -1,0 +1,1189 @@
+{
+    "id": "97511179-830d-4836-a14f-25e56c9e5877",
+    "name": "price",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+        {
+            "action": "",
+            "affectedContexts": [],
+            "parameters": [
+                {
+                    "noInputPromptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "promptMessages": [],
+                    "defaultValue": "",
+                    "name": "number",
+                    "dataType": "@sys.number",
+                    "isList": false,
+                    "required": false,
+                    "prompts": [],
+                    "value": "$number",
+                    "outputDialogContexts": []
+                },
+                {
+                    "noInputPromptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "promptMessages": [],
+                    "defaultValue": "",
+                    "name": "comparison",
+                    "dataType": "@comparison",
+                    "isList": false,
+                    "required": false,
+                    "prompts": [],
+                    "value": "$comparison",
+                    "outputDialogContexts": []
+                }
+            ],
+            "defaultResponsePlatforms": {},
+            "messages": [
+                {
+                    "type": "message",
+                    "condition": "",
+                    "speech": []
+                }
+            ],
+            "resetContexts": false
+        }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "dollar",
+                    "userDefined": false,
+                    "meta": "@sys.ignore",
+                    "alias": null
+                }
+            ],
+            "count": 0,
+            "id": "e4906381-affe-4112-92f6-99305f50fa4b",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "under",
+                    "userDefined": false,
+                    "alias": "comparison",
+                    "meta": "@comparison"
+                },
+                {
+                    "text": " ",
+                    "userDefined": false
+                },
+                {
+                    "text": "300",
+                    "userDefined": false,
+                    "alias": "number",
+                    "meta": "@sys.number"
+                }
+            ],
+            "count": 0,
+            "id": "eabe2821-d7d8-4450-be66-b5818b78d011",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "over",
+                    "userDefined": true,
+                    "alias": "comparison",
+                    "meta": "@comparison"
+                },
+                {
+                    "text": " ",
+                    "userDefined": false
+                },
+                {
+                    "text": "1000",
+                    "userDefined": true,
+                    "alias": "number",
+                    "meta": "@sys.number"
+                },
+                {
+                    "text": " dollars",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "26ab3c43-00a3-4269-a4d8-6ecfb42e6fd2",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "more than",
+                    "userDefined": true,
+                    "alias": "comparison",
+                    "meta": "@comparison"
+                },
+                {
+                    "text": " ",
+                    "userDefined": false
+                },
+                {
+                    "text": "500",
+                    "userDefined": true,
+                    "alias": "number",
+                    "meta": "@sys.number"
+                },
+                {
+                    "text": " dollars",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "9ccccb3a-f1cf-4105-b45b-139ba8e1a073",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "price",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "205fb39b-0bfd-4394-9473-5189ebbd12bb",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "price",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the price?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the price?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Cost. Is it affordable for me?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have any mid range priced phones?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much is the upfront cost? ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the montly cost? ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much is the contract",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What price plans are available on that model?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Which is your cheapest smartphone?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Which of your smartphones is the simplest?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much is the monthly cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Which operating system is it on?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Which brand do you recommend that is affordable and good quality at the same time?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Can i easily place it in my pocket?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much is it",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "what is the price",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How big is it? I prefer a medium sized phone (not too bog or small)",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is it's size?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "is that the cheapest you can do",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Which is the best value?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is the price worth the features?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What smartphones do you have under £600",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Ho much does it cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "obviously, what is the quality of the camera",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have a basic, cheap smartphone?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What are the security features",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "how much is it",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "whats the price range",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the price?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is there a refurbished option available? I want to keep the costs down",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the price outright?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "price",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How expensive is it?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it have a way to block spam?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much is it? I have a set budget to spend a month",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Are there hidden fees? Will I have to pay for cloud storage or access to certain features",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "how much does it cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have any refurbished models at lower price?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "what's the price",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much am I going to have to pay? ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Can it be externally modified?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the best phone for the the best value for money?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much is it",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the price",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What do you think is the best smartphone for it's price?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Can you recommend a good budget smartphone?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is this a good price?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "whats the price?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What brand is the phone ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "The cost of the phone",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much is it?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the cost of the contract",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What are the best value phones - under £100 say?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "price",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the price ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Which phone is best value for money?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Whats the best mid-range option?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much is it?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "what is the price.",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "how much is it?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How well does this model retain its battery charge? I find most smartphones deplete quickly.",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "I need a smartphone that can accept two separate mobile network cards",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the price?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is it good value for money",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Which smart phone is under this price?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "how much does the phone cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "which brand is more affordable",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much is the phone",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What phones do you have that offer flagship features (Iphone 13/ Galaxy s22 etc) at a mid range price (Galaxy A series etc)?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much is your cheapest phone?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "which phone seems timeless as though it never goes out of style despite new phones always being brought out? because i want to have a modern phone but not the newest because they are likely to be very expensive.",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "price range",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is it expensive?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "how much does this smartphone cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "how much does it cost?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Why are they so expensive?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "how does the cost compare to similar phones",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the pricepoint? I prefer to buy a cheaper phone outright than pay for ongoing contract",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What are you budget options below £n?<br><br>",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What's the price?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does it cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "The price",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What are the price ranges?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "best budget smartphones",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What smartphone has best parameters for the best price at the moment?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "price",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the range of options within my price range?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the total cost including any recommended extras such as cases?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "how much wlll it cost",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "price",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How much does the smartphone cost?",
+                    "userDefined": false
+                }
+            ]
+        }
+    ],
+    "webhookForSlotFilling": true,
+    "webhookUsed": true
+}

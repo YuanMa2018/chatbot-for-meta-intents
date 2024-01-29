@@ -1,0 +1,86 @@
+{
+    "name": "headphone jack 3.5mm",
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "headphone jack 3.5mm",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have a phone with a stereo jack?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "is there an earphone socket",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it have a 3.5mm audio jack?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it have a 3.5mm headphone input?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does this phone have a dedicated 3.5mm head jack?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "does it have a headphone port",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is there a headphone jack?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does the phone have a headphone jack?",
+                    "userDefined": false
+                }
+            ]
+        }
+    ]
+}

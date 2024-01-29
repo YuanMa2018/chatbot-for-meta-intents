@@ -1,0 +1,233 @@
+{
+  "id": "832ebc88-076e-498c-9cc4-7085e5493d5a",
+  "name": "wireless carrier",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "wireless_carriers",
+          "dataType": "@wireless_carriers",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$wireless_carriers",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Vodafone",
+          "userDefined": true,
+          "alias": "wireless_carriers",
+          "meta": "@wireless_carriers"
+        }
+      ],
+      "count": 0,
+      "id": "67893a38-4358-463b-b3cf-464b5d3597fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Verizon",
+          "userDefined": true,
+          "alias": "wireless_carriers",
+          "meta": "@wireless_carriers"
+        }
+      ],
+      "count": 0,
+      "id": "7a1aa412-85d9-4e90-9226-aea7bc7555cb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tracfone",
+          "userDefined": true,
+          "alias": "wireless_carriers",
+          "meta": "@wireless_carriers"
+        }
+      ],
+      "count": 0,
+      "id": "dc75fea2-562c-44e2-9176-c575f25c0b27",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Total Wireless",
+          "userDefined": true,
+          "alias": "wireless_carriers",
+          "meta": "@wireless_carriers"
+        }
+      ],
+      "count": 0,
+      "id": "d8a34d9f-e0f5-437d-be25-b427d2ee39f3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "T-Mobile",
+          "userDefined": true,
+          "alias": "wireless_carriers",
+          "meta": "@wireless_carriers"
+        }
+      ],
+      "count": 0,
+      "id": "0f783775-a132-41ac-bda0-a1e21eb0bc5f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Orange",
+          "userDefined": false,
+          "alias": "wireless_carriers",
+          "meta": "@wireless_carriers"
+        }
+      ],
+      "count": 0,
+      "id": "60f905dc-c21d-48bd-9987-0f3c16a9ffca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Net10",
+          "userDefined": true,
+          "alias": "wireless_carriers",
+          "meta": "@wireless_carriers"
+        }
+      ],
+      "count": 0,
+      "id": "c3941700-c4ed-47d1-83cf-9a14ea8be318",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Etisalat",
+          "userDefined": true,
+          "alias": "wireless_carriers",
+          "meta": "@wireless_carriers"
+        }
+      ],
+      "count": 0,
+      "id": "8ff13e1d-6130-4e19-9fee-45650b4c08d9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Docomo",
+          "userDefined": true,
+          "alias": "wireless_carriers",
+          "meta": "@wireless_carriers"
+        }
+      ],
+      "count": 0,
+      "id": "1537f796-1b66-4110-a0bc-c73edc6b9e7a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Blue",
+          "userDefined": true,
+          "alias": "wireless_carriers",
+          "meta": "@wireless_carriers"
+        }
+      ],
+      "count": 0,
+      "id": "f4abe4a8-9dda-4eca-b078-7d47f91d0f6a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "All Carriers",
+          "userDefined": true,
+          "alias": "wireless_carriers",
+          "meta": "@wireless_carriers"
+        }
+      ],
+      "count": 0,
+      "id": "cdb1a704-e90b-43d8-b063-9e3bcdb201bc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "AT&T",
+          "userDefined": true,
+          "alias": "wireless_carriers",
+          "meta": "@wireless_carriers"
+        }
+      ],
+      "count": 0,
+      "id": "c4a07277-aec1-474c-bb1d-dd6fe5fb74f6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "wireless carrier",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "da8064f0-4a6d-4ee0-a929-8e9fb5a50697",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": true,
+  "webhookUsed": true
+}

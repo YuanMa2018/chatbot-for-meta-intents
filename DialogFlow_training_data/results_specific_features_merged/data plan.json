@@ -1,0 +1,32 @@
+{
+    "name": "data plan",
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "data plan",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How easily can it be fixed if it is ever damaged?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Please can you tell me about the data included with the plan",
+                    "userDefined": false
+                }
+            ]
+        }
+    ]
+}

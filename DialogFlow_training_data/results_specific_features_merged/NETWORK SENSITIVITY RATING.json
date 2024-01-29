@@ -1,0 +1,23 @@
+{
+    "name": "NETWORK SENSITIVITY RATING",
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "NETWORK SENSITIVITY RATING",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does this phone provide good signal?",
+                    "userDefined": false
+                }
+            ]
+        }
+    ]
+}

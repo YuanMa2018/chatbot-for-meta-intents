@@ -1,0 +1,724 @@
+{
+    "id": "a1a111a3-f189-4d82-9618-cd91f5bf75f2",
+    "name": "operating system",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+        {
+            "action": "",
+            "affectedContexts": [],
+            "parameters": [
+                {
+                    "noInputPromptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "promptMessages": [],
+                    "defaultValue": "",
+                    "name": "operating_system",
+                    "dataType": "@operating_system",
+                    "isList": false,
+                    "required": false,
+                    "prompts": [],
+                    "value": "$operating_system",
+                    "outputDialogContexts": []
+                }
+            ],
+            "defaultResponsePlatforms": {},
+            "messages": [
+                {
+                    "type": "message",
+                    "condition": "",
+                    "speech": []
+                }
+            ],
+            "resetContexts": false
+        }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "RTOS",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "f20fd144-07a2-42d8-9dcb-60d211d466fc",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Oxygen OS",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "9cef298b-e460-42d0-bf0b-f24e85c7cccf",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Nucleus OS",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "c83d3ef7-111f-4130-a356-4e24db695b20",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "MIUI 12",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "442143e1-fa0d-4452-9e78-5c1a20f111b5",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "KiaOS",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "5597a890-d0eb-4679-b706-64708737eb7e",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Kai OS",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "232ec538-501f-4006-a328-4dd491b2f183",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "IOS",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "fac2b2cf-fd03-424f-adf8-2da5d675e703",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Easyfone OS",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "ea0f5654-5cde-4d99-a619-81923161bf78",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Android 9.0",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "86b29f07-c93a-44fd-9475-d0fc61414eb1",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Android 6.0",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "ce254048-da47-4084-a14d-3e641004c193",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Android 11",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "1d345c78-b5ce-4891-ae39-48adb3902156",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Android 10",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "aa5df488-635f-4cf3-adf1-7194790f35db",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Android",
+                    "userDefined": true,
+                    "alias": "operating_system",
+                    "meta": "@operating_system"
+                }
+            ],
+            "count": 0,
+            "id": "2af7f9f2-1f33-45a4-bb55-18161b60e116",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "operating system",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "7675effc-197e-40ee-ad25-18ecef139d0c",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "operating system",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What operating system does the phone use",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What brand names they have? ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "operating system",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is it Andoid or Windows?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What operating system does it have",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "does it work on 5G?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How good is the operating system? I do not like glitches when perfoming tasks on my phone",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What operating system does it have? Which do you recommend is best?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What operating system does it use?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What operating system does the smartphone have?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What colours does it come in? ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What operating system; android etc",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "what operating system does it have",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How does this phone compare to a slightly older model?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is it waterproof",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "os it easy to use (intuitive)?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What operating system does the smartphone run on?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What extra features does the camera have?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "I need an Android phone. What do you have?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is the customer interface easy to use?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "operating system",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the operating system? As I have a clear preference.",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the operating software?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What operating system does this use?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What Android Phones do you have available?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What operating system does it run?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "I prefer a phone with a stock android experience.",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What OS does it run?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "what's the operating system",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is it Apple or Android",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is it android ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What operation system does the phone have?  ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "I'd like a smartphone which has Android operating system.",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the opearting system",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What operating system version does it use?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "I want a smartphone that has a pure Android operating system, i.e. not customised by the manufacturer",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the operating system (iOS, android)?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Which OS version does it use?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Which operating system?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Android?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Will I only have the terrible choice between Android and iOS?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What OS version does it come with?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "what system does it run on ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the operating system? I prefer android ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the OS",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is it connected to the apple store easily and can I manage the apps with ease",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "smartphones with the latest operating systems",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "does it run on ios or android as i prefer ios running system ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "does the phone support the latest android",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "OS",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have a smartphone with a fast intuitive operating system?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the operating system?",
+                    "userDefined": false
+                }
+            ]
+        }
+    ],
+    "webhookForSlotFilling": true,
+    "webhookUsed": true
+}

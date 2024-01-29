@@ -1,0 +1,188 @@
+{
+    "id": "eb110568-a985-48dd-a3e9-c92fd85a09ce",
+    "name": "popularity",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+        {
+            "action": "",
+            "affectedContexts": [],
+            "parameters": [
+                {
+                    "noInputPromptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "promptMessages": [],
+                    "defaultValue": "",
+                    "name": "number",
+                    "dataType": "@sys.number",
+                    "isList": false,
+                    "required": false,
+                    "prompts": [],
+                    "value": "$number",
+                    "outputDialogContexts": []
+                },
+                {
+                    "noInputPromptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "promptMessages": [],
+                    "defaultValue": "",
+                    "name": "comparison",
+                    "dataType": "@comparison",
+                    "isList": false,
+                    "required": false,
+                    "prompts": [],
+                    "value": "$comparison",
+                    "outputDialogContexts": []
+                }
+            ],
+            "defaultResponsePlatforms": {},
+            "messages": [
+                {
+                    "type": "message",
+                    "condition": "",
+                    "speech": []
+                }
+            ],
+            "resetContexts": false
+        }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "under",
+                    "userDefined": true,
+                    "alias": "comparison",
+                    "meta": "@comparison"
+                },
+                {
+                    "text": " ",
+                    "userDefined": false
+                },
+                {
+                    "text": "500",
+                    "userDefined": true,
+                    "alias": "number",
+                    "meta": "@sys.number"
+                },
+                {
+                    "text": " comments",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "552eb0a9-3a2d-43e0-bc5e-f93a63c8d039",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "more than",
+                    "userDefined": true,
+                    "alias": "comparison",
+                    "meta": "@comparison"
+                },
+                {
+                    "text": " ",
+                    "userDefined": false
+                },
+                {
+                    "text": "1000",
+                    "userDefined": true,
+                    "alias": "number",
+                    "meta": "@sys.number"
+                },
+                {
+                    "text": " reviews",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "3eb2dffd-58e3-44d6-9a38-776d7678409e",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "numrating",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "89db190f-3660-4e52-99b2-724d546a08eb",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "popularity",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is this smartphone popular?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is your most popular phone?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Which smart phone do most people buy as a standard?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Which is the best selling phone",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is your bestseller when it comes to the smartphones?",
+                    "userDefined": false
+                }
+            ]
+        }
+    ],
+    "webhookForSlotFilling": true,
+    "webhookUsed": true
+}

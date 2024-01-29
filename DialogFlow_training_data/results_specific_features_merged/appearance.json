@@ -1,0 +1,32 @@
+{
+    "name": "appearance",
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "appearance",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have a phone that looks nice?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Without purchasing a separate SD card, how much storage capacity does this phone have? ",
+                    "userDefined": false
+                }
+            ]
+        }
+    ]
+}

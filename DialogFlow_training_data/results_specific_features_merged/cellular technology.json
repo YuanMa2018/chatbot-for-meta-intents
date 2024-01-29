@@ -1,0 +1,228 @@
+{
+    "id": "126ba0a4-8834-469b-8b8c-a2b1e88a181f",
+    "name": "cellular technology",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+        {
+            "action": "",
+            "affectedContexts": [],
+            "parameters": [
+                {
+                    "noInputPromptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "promptMessages": [],
+                    "defaultValue": "",
+                    "name": "cellular_technology",
+                    "dataType": "@cellular_technology",
+                    "isList": false,
+                    "required": false,
+                    "prompts": [],
+                    "value": "$cellular_technology",
+                    "outputDialogContexts": []
+                }
+            ],
+            "defaultResponsePlatforms": {},
+            "messages": [
+                {
+                    "type": "message",
+                    "condition": "",
+                    "speech": []
+                }
+            ],
+            "resetContexts": false
+        }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "I want to have a ",
+                    "userDefined": false
+                },
+                {
+                    "text": "3G",
+                    "userDefined": true,
+                    "alias": "cellular_technology",
+                    "meta": "@cellular_technology"
+                },
+                {
+                    "text": " smartphone",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "d744e16e-cef2-49c7-860f-8e86c18d4b5b",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "5G",
+                    "userDefined": true,
+                    "alias": "cellular_technology",
+                    "meta": "@cellular_technology"
+                }
+            ],
+            "count": 1,
+            "id": "3f4b1c51-6b93-4862-9ac2-632ee3bc9d76",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "4G",
+                    "userDefined": true,
+                    "alias": "cellular_technology",
+                    "meta": "@cellular_technology"
+                }
+            ],
+            "count": 0,
+            "id": "f0ccb78b-d990-490d-b973-cb97b488fdc9",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "3G",
+                    "userDefined": true,
+                    "alias": "cellular_technology",
+                    "meta": "@cellular_technology"
+                }
+            ],
+            "count": 0,
+            "id": "54e374d7-b3e2-41a7-a11e-8c5d4acb4926",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "cellular technology",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "b3db1328-f648-49c7-b85b-9f85979b048f",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "cellular technology",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it have any special features that other phones don't have? ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does the phone support 5G?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it support 5g",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it have 5G?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does the phone have 4G or 5G connectivity?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is this phone 5G compatable?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have phones that are compatible with 5g connectivity<br>",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is it 5g ready",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "does it have 5g",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "does this phone have 5g",
+                    "userDefined": false
+                }
+            ]
+        }
+    ],
+    "webhookForSlotFilling": true,
+    "webhookUsed": true
+}

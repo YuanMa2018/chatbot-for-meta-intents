@@ -1,0 +1,965 @@
+{
+    "id": "7b81a2e5-fb3e-4b62-8dac-7d794909bc5e",
+    "name": "brand",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+        {
+            "action": "",
+            "affectedContexts": [],
+            "parameters": [
+                {
+                    "noInputPromptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "promptMessages": [],
+                    "defaultValue": "",
+                    "name": "brands",
+                    "dataType": "@brands",
+                    "isList": false,
+                    "required": false,
+                    "prompts": [],
+                    "value": "$brands",
+                    "outputDialogContexts": []
+                }
+            ],
+            "defaultResponsePlatforms": {},
+            "messages": [
+                {
+                    "type": "message",
+                    "condition": "",
+                    "speech": []
+                }
+            ],
+            "resetContexts": false
+        }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "I want to have a ",
+                    "userDefined": false
+                },
+                {
+                    "text": "huawei",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                },
+                {
+                    "text": " ",
+                    "userDefined": false
+                },
+                {
+                    "text": "phone",
+                    "userDefined": false,
+                    "meta": "@sys.ignore",
+                    "alias": null
+                }
+            ],
+            "count": 0,
+            "id": "63e98aad-ac20-45c5-a605-232a99a77a82",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "ZTE",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 1,
+            "id": "23b963a3-f465-4235-9635-aab780e4879a",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "VOICEPING",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "013dfc68-fdd1-4f0b-b41e-8e39ffa4ad4e",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "ULEWAY",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "f0348180-afb2-4e8c-922e-6c9a022cff0f",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Ulefone",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "ef7dd9ae-2668-4aac-bffb-2421140294fe",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "UIcool",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "f27ba1f5-af30-47e9-9970-f4ac1511fcfe",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "USHINING",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "9ca2a68e-4c96-4407-b65f-b505dece676d",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "UMIDIGI",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 1,
+            "id": "5de3f443-bb67-438a-a156-11cb321e9f27",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "TCL",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "af2ac902-d1e0-42d5-8190-f29078815162",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Soyes",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "625ee305-a75e-45cc-a6bd-18f16c3b279d",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Sony",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "f1175d0d-050a-467d-bc0c-5d6b405ec4a2",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Samsung Electronics",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "37a3e271-7876-40b7-abfc-5777afcc7e17",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Realme",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "f5471650-458b-4325-b3df-b792c5349850",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "REDMAGIC",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "8034bf62-2031-4795-ad56-9db463f02964",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Plum",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "ff290435-80c0-4ba2-972e-bdd493d11bc8",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "POCO,LLC",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "fd0b9740-4e31-4740-b4ab-b58e3fd362a0",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "POCO",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "dddb608c-4696-4c0b-bd8b-2e04371d9ea3",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "PHONEMAX",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "1cf50eb9-1556-46ec-8a6b-8d85db385f0e",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "OnePlus",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "46a7b7b8-60db-4b43-96a4-b761c37c2bba",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "OUKITEL",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "5d8199a5-a5af-4b21-b3de-67f25a40c477",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Nubia",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "3177435c-8e48-4c9b-bc86-5b04691f4a69",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Nokia",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "4f72f389-1c8c-42eb-ab0f-35270f200b3c",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Motorola",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "e1fe89f8-0b8e-469e-a6a6-fce59c91428c",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "MiRUSI",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "9106c961-bba1-4b45-a521-42acca63d149",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "LG",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "7a75fdf3-e5a3-4668-9e41-b5165a728ce3",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "L8star",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "8a4b1e5a-3330-4bf2-9d0b-80f350b08b84",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "kxd",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "e32a5369-0f24-4e89-ad68-6b05452c1adf",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "htc",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "5ba7e9ca-b2b7-46bd-9d50-7251bc0834b3",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "hafury",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "9f807520-3ac2-4f11-a23b-37b75f724116",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "google",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "f8ae2fdd-fcd5-4c1f-9a78-e83c0e4ca003",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "easyfone",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "60c49b58-8247-40a7-90fc-5ce2862c26e4",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "doogee",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "b0c83312-b54f-45ca-a3c5-5fc48f93c7c2",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "cubot",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "b69258eb-9be9-48fc-a92d-74d69af9ff86",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "CAT phone",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "508f1f08-49bf-471a-895d-7202916547a2",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "balckview",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "58406c53-ef75-4a71-8e10-9d8420b02495",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "black shark",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "77aa91af-c6e8-46b5-a93a-77890cdbf354",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "BLU",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "0848c8c0-a008-4b75-a483-d9de8d765b1a",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "apple",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "823addac-c9bf-45be-a5d2-3b36986df1e3",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Alcatel-TCL",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "6b9d0293-5065-43cc-860b-17e2d7fb0324",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Alcatel",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "1d424187-0ed0-4a3c-8f0f-e11dc8d275af",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Aderroo",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "e220dae7-30ad-4d34-b2e8-577d61bc4117",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "ASUS",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "ccbc120a-d614-4e7f-b13f-eaf93618b5e8",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "AGM",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "7d2913e4-8f18-4a5d-90dd-7db803a018bf",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "redmi",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "4e7011b9-2842-4706-9874-0e2b73e08ee1",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "xiaomi",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "e3504924-77a0-4eaf-b51e-9a65cbde4b72",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "samsung",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "e75d7c0a-757a-4c8f-b806-9fdd98b46842",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "huawei",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "bc922f2b-5e23-41ac-9809-54b602ff6544",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "My favorite brand is ",
+                    "userDefined": false
+                },
+                {
+                    "text": "Samsung",
+                    "userDefined": true,
+                    "alias": "brands",
+                    "meta": "@brands"
+                }
+            ],
+            "count": 0,
+            "id": "18c77912-7153-495d-b056-665f5740877a",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What brands do you have?",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "062e5f6c-75f1-4739-8287-785b72483387",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "brand",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "63201297-3524-4a3e-b8b1-5e511ddd4fc9",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "brand",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it have Apple Pay?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is this brand considered reliable?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "how much storage",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Who is manufacturer",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "THE BRAND",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "...is it an iphone?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What are the current range of iPhones in stock?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What's the brand?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the smartphone brand with best aftersales care?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "If it's not manufactured by Samsung/Apple/Google, what's the credibility of the brand?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What phone would you recommend to an iphone user who wants to make a change? Are any of the phones here similar to the iphone?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "what's the brand",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have a smartphone I can use with Google applications? I use Google cloud",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What brand is it?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it have the full Google Play store?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have a mororola phone?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the best brand to take photos?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it have Google Services?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Which brand?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Latest models available from samsung",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have an Apple phone?",
+                    "userDefined": false
+                }
+            ]
+        }
+    ],
+    "webhookForSlotFilling": true,
+    "webhookUsed": true
+}

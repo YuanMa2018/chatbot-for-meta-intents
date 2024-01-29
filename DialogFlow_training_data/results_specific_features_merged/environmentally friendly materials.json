@@ -1,0 +1,41 @@
+{
+    "name": "environmentally friendly materials",
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "environmentally friendly materials",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "has it been made using ethically sourced materials?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it meet envirnmental standards in its manuafcturing process?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What accessories come with the device? ",
+                    "userDefined": false
+                }
+            ]
+        }
+    ]
+}

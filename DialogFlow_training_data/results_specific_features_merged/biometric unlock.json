@@ -1,0 +1,41 @@
+{
+    "name": "biometric unlock",
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "biometric unlock",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does he have facial regcognition?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have a phone with finger print recognition to unlock it?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How quickly does your phone react to my fingerprint or facial recognition?",
+                    "userDefined": false
+                }
+            ]
+        }
+    ]
+}

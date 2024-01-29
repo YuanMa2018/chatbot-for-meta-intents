@@ -1,0 +1,209 @@
+{
+  "id": "753b8f93-b5cf-48c3-9773-ceb883ab7a24",
+  "name": "help",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Hello! I am your personal assistant LILI and glad to find you a suitable smartphone!"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "help me to find a smartphone?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0f85155f-63cc-4b6b-803d-929bf38d3e4e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you help me to find a good smartphone?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c7e6c817-6f2e-4016-b112-2f1d55cae914",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to have a smartphone",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6fba469c-e80c-4c1a-9423-a8104d9db73f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you help me to find a good product?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ef9df496-674b-4260-befb-7c8f4b3021a6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "manual?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "595ba12c-a3b9-4821-9b49-0319a9694461",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "is there any manual？",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7a6332d8-58b0-4897-a488-3abf85d66065",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "readme?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a131e7b2-aac2-4cd8-9e52-3152040f4fc2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "instruction",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0d0d3688-8132-4f18-bfcc-6b5ea271bec0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "how to use it?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f25e6090-6363-4845-8d7f-249619d53443",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you tell me how to do with it?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "202a1fd4-1215-4659-ad80-2a665c288a7f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what is this?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d89776cf-e3af-49bc-be71-c5a9371779ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "help",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b02de78f-639b-4782-9ca8-882aa86bfe83",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "can you give me some help?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c9343424-3b9f-43d1-8d27-36d9238e1443",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "what should I do?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4b44032f-bcc7-44f2-8369-f9487ec00583",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": true,
+  "webhookUsed": true
+}

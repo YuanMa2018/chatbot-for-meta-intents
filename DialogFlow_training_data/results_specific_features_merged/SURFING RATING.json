@@ -1,0 +1,23 @@
+{
+    "name": "SURFING RATING",
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "SURFING RATING",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How fast is the Data Speed?",
+                    "userDefined": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,295 @@
+{
+    "id": "d47baa19-0014-47e5-8ad9-e7bc0273f306",
+    "name": "model year",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+        {
+            "action": "",
+            "affectedContexts": [],
+            "parameters": [
+                {
+                    "noInputPromptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "promptMessages": [],
+                    "defaultValue": "",
+                    "name": "number",
+                    "dataType": "@sys.number",
+                    "isList": false,
+                    "required": false,
+                    "prompts": [],
+                    "value": "$number",
+                    "outputDialogContexts": []
+                },
+                {
+                    "noInputPromptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "promptMessages": [],
+                    "defaultValue": "",
+                    "name": "comparison",
+                    "dataType": "@comparison",
+                    "isList": false,
+                    "required": false,
+                    "prompts": [],
+                    "value": "$comparison",
+                    "outputDialogContexts": []
+                }
+            ],
+            "defaultResponsePlatforms": {},
+            "messages": [
+                {
+                    "type": "message",
+                    "condition": "",
+                    "speech": []
+                }
+            ],
+            "resetContexts": false
+        }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "before",
+                    "userDefined": true,
+                    "alias": "comparison",
+                    "meta": "@comparison"
+                },
+                {
+                    "text": " ",
+                    "userDefined": false
+                },
+                {
+                    "text": "2022",
+                    "userDefined": false,
+                    "alias": "number",
+                    "meta": "@sys.number"
+                },
+                {
+                    "text": " year",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "2b5a6934-51ef-4205-a9fe-f3ef3cb12c96",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "2019",
+                    "userDefined": false,
+                    "alias": "number",
+                    "meta": "@sys.number"
+                },
+                {
+                    "text": " ",
+                    "userDefined": false
+                },
+                {
+                    "text": "later",
+                    "userDefined": true,
+                    "alias": "comparison",
+                    "meta": "@comparison"
+                }
+            ],
+            "count": 0,
+            "id": "61a430a4-9563-4878-9335-4da7ed3f8e48",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "I want to have a ",
+                    "userDefined": false
+                },
+                {
+                    "text": "2020",
+                    "userDefined": false,
+                    "alias": "number",
+                    "meta": "@sys.number"
+                },
+                {
+                    "text": " phone",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "cce4d5a6-2653-4323-916b-92eec7c49bc1",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "in the ",
+                    "userDefined": false
+                },
+                {
+                    "text": "2022",
+                    "userDefined": true,
+                    "alias": "number",
+                    "meta": "@sys.number"
+                },
+                {
+                    "text": " year",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "440f521e-99cd-4043-8883-ee8de429d395",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "in the ",
+                    "userDefined": false
+                },
+                {
+                    "text": "2021",
+                    "userDefined": true,
+                    "alias": "number",
+                    "meta": "@sys.number"
+                },
+                {
+                    "text": " year",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "81e6c6b1-7e4f-465c-917b-9143e2c0a4fa",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "model year",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "8fc369e8-ff2b-4fd9-a2d8-2d25918952a8",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "model year",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What year was it released?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "when was the phone released?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How recently was this phone developed",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How long can I expect this phone to last?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What latest phone models do you have?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is this the latest model?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is it the latest model?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How soon is a newer model going to be launched",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "When was it released?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Android smartphones new releases",
+                    "userDefined": false
+                }
+            ]
+        }
+    ],
+    "webhookForSlotFilling": true,
+    "webhookUsed": true
+}

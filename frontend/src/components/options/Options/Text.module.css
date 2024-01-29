@@ -1,0 +1,17 @@
+.inlineText {
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px;
+  color: #ffffff;
+  font-size: 1rem;
+  background: #2c9cec;
+}
+
+.itemFeatureText {
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px;
+  color: #ffffff;
+  font-size: 1rem;
+  background: #2c9cec;
+}

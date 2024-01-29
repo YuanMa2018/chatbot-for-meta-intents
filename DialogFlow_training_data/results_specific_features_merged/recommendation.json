@@ -1,0 +1,135 @@
+{
+  "id": "04964b6d-ce5c-49c7-a9e8-dc21641df391",
+  "name": "recommendation",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "critiquing function",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7527c58c-a277-4554-9e1a-a5ee26c26bd4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "critique",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "baf8a251-db2e-4b8d-b2e8-2e632665ef57",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I need a recommendation",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74b0df54-e59b-4759-81d8-b7158e6befb2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "do you have some candidate products?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c6ba8837-3c41-4147-bbdf-4e8c4c5aebe2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "recommand?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "061e4fd4-2ecd-4d98-8fec-b403a7506044",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "A recommendation",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "139eb5fd-916a-43d1-9c29-a46ecf4fd7a0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you give me a recommendation?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "72064248-8519-4b59-86c5-52a2610e7751",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "recommendation",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e0fb9239-3792-4a3a-ba1c-95f877799fcd",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

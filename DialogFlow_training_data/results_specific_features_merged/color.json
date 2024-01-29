@@ -1,0 +1,642 @@
+{
+    "id": "a3188d43-f9cf-49e9-9ee7-2d64ec525e3f",
+    "name": "color",
+    "auto": true,
+    "condition": "",
+    "conditionalFollowupEvents": [],
+    "conditionalResponses": [],
+    "context": [],
+    "contexts": [],
+    "endInteraction": false,
+    "events": [],
+    "fallbackIntent": false,
+    "liveAgentHandoff": false,
+    "parentId": null,
+    "followUpIntents": [],
+    "priority": 500000,
+    "responses": [
+        {
+            "action": "",
+            "affectedContexts": [],
+            "parameters": [
+                {
+                    "noInputPromptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "promptMessages": [],
+                    "defaultValue": "",
+                    "name": "color",
+                    "dataType": "@sys.color",
+                    "isList": false,
+                    "required": false,
+                    "prompts": [],
+                    "value": "$color",
+                    "outputDialogContexts": []
+                },
+                {
+                    "noInputPromptMessages": [],
+                    "noMatchPromptMessages": [],
+                    "promptMessages": [],
+                    "defaultValue": "",
+                    "name": "colors",
+                    "dataType": "@colors",
+                    "isList": false,
+                    "required": false,
+                    "prompts": [],
+                    "value": "$colors",
+                    "outputDialogContexts": []
+                }
+            ],
+            "defaultResponsePlatforms": {},
+            "messages": [
+                {
+                    "type": "message",
+                    "condition": "",
+                    "speech": []
+                }
+            ],
+            "resetContexts": false
+        }
+    ],
+    "rootParentId": null,
+    "templates": [],
+    "userSays": [
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "I want to have a smartphone with ",
+                    "userDefined": false
+                },
+                {
+                    "text": "green",
+                    "userDefined": true,
+                    "alias": "colors",
+                    "meta": "@colors"
+                },
+                {
+                    "text": " color.",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "e92e6139-b0d3-4ceb-b880-59d147f99b75",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "yellow",
+                    "userDefined": true,
+                    "alias": "colors",
+                    "meta": "@colors"
+                },
+                {
+                    "text": " phone",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "9c3d2c98-acc0-447e-a7e2-4e40f83de0a8",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "white",
+                    "userDefined": true,
+                    "alias": "colors",
+                    "meta": "@colors"
+                }
+            ],
+            "count": 0,
+            "id": "2f7a2eb6-b700-4c43-a4b0-81d8faa2237d",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "transparent",
+                    "userDefined": true,
+                    "alias": "colors",
+                    "meta": "@colors"
+                }
+            ],
+            "count": 0,
+            "id": "87d63bed-7035-4569-83d5-c6975d19c177",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "silver",
+                    "userDefined": true,
+                    "alias": "colors",
+                    "meta": "@colors"
+                }
+            ],
+            "count": 0,
+            "id": "0d609285-8cb2-47be-8552-65d60d8baa8d",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "red",
+                    "userDefined": true,
+                    "alias": "colors",
+                    "meta": "@colors"
+                }
+            ],
+            "count": 0,
+            "id": "a06d3e44-a282-447d-9d85-02cfedd0ea39",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "purple",
+                    "userDefined": true,
+                    "alias": "colors",
+                    "meta": "@colors"
+                }
+            ],
+            "count": 0,
+            "id": "4f6693c9-b7e2-4d67-b872-b4ba25bf6993",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "orange",
+                    "userDefined": false,
+                    "alias": "colors",
+                    "meta": "@colors"
+                }
+            ],
+            "count": 0,
+            "id": "f808f830-759f-4cf8-9cef-48b86d399754",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "grey",
+                    "userDefined": false,
+                    "alias": "colors",
+                    "meta": "@colors"
+                }
+            ],
+            "count": 0,
+            "id": "c37f36f5-9b6c-4ae5-ad1a-5c57abca0aca",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "green",
+                    "userDefined": false,
+                    "alias": "colors",
+                    "meta": "@colors"
+                }
+            ],
+            "count": 0,
+            "id": "c39e0457-38a0-4f9a-b75b-6d7f0b9d7fc5",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "gradient",
+                    "userDefined": true,
+                    "alias": "colors",
+                    "meta": "@colors"
+                }
+            ],
+            "count": 0,
+            "id": "5cabbfdd-257d-44e6-bc7b-96d92245bef9",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "bronze",
+                    "userDefined": false,
+                    "alias": "color",
+                    "meta": "@sys.color"
+                }
+            ],
+            "count": 0,
+            "id": "577784d5-5851-43b6-84e9-cc5dcb7455ad",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "blue",
+                    "userDefined": false,
+                    "alias": "color",
+                    "meta": "@sys.color"
+                }
+            ],
+            "count": 0,
+            "id": "faf37093-3fc4-4666-91f1-5b27194fe071",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "black",
+                    "userDefined": false,
+                    "alias": "color",
+                    "meta": "@sys.color"
+                }
+            ],
+            "count": 0,
+            "id": "8f5d51e4-e5b3-49f3-aecd-51996d311c1b",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "aura",
+                    "userDefined": true,
+                    "alias": "color",
+                    "meta": "@sys.color"
+                }
+            ],
+            "count": 0,
+            "id": "11d56aa3-522c-46a4-a64d-0705770a700f",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "color",
+                    "userDefined": false
+                }
+            ],
+            "count": 0,
+            "id": "68b57236-9ac2-4905-9192-39b85fa9eb97",
+            "updated": null
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "color",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have phones in various colours?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "what are the colour choices",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it come in different colours?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How does it compare to other comparable models?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have it in black?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it come in different colours<br>",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "what available colours",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What colours does it come in? ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "what colours does it come in?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it came in differnt colours i dont like the one it comes in ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it come in a range of different colours?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "does it come in other colours",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is it made from?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How long to charge it?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Is the phone available in other colours? I prefer neutral/ discreet tones.",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Can internal storage be expanded with memory cards?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What are the colour options for this phone?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Are there alternative colour options?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What is the color of the phone",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How's the battery life?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "what range of colours dose it come in",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What colours are available?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What colours does it come with?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it come in the colour I like?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What AI functions does the camera have?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Do you have any yellow smartphones?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "do you have a choice of colours?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "How many colors does it come in",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "is there a nice selction of colours? because i like to choose a colour that best suits my personality.",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "do you have a smartphone in blue ",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What colours are available?<br>",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "I am keen for a coloured phone. What do you recommend? And what colours do the models come in?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "Does it come in a range of colours",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What colours does it come in?",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What colours does the handset come in",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "what colours are available",
+                    "userDefined": false
+                }
+            ]
+        },
+        {
+            "isTemplate": false,
+            "data": [
+                {
+                    "text": "What colours does it come in as i 'd like a red one?",
+                    "userDefined": false
+                }
+            ]
+        }
+    ],
+    "webhookForSlotFilling": true,
+    "webhookUsed": true
+}
